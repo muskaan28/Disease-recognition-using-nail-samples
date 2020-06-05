@@ -14,8 +14,6 @@ Modeled Convolutional Neural Network algorithm to train and test datasets, propo
 
 
 
-
-
 PROCESS:
 
 The data is extracted from Kaggle. Computer vision is used for resizing and labeling the images.
@@ -38,41 +36,4 @@ In this system human nail image is captured using camera. Captured image is uplo
 In health care domain doctors observe human nails as supporting information or symptoms for certain disease prediction. The same task is defined by the proposed model without  any human intervention. 
 
 The model gives more accurate results than human vision, errors because it overcomes the limitations of human eye like subjectivity and resolution power.
-
-ALGORITHM:
-
-The name “convolutional neural network” indicates that the network employs a mathematical operation called convolution.Convolution is a specialized kind of linear operation. Convolutional networks are simply neural networks that use convolution in place of general matrix multiplication in at least one of their layers.
-
-A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers.  The activation function is commonly a RELU layer, and is subsequently followed by additional convolutions such as pooling layers, fully connected layers and normalization layers, referred to as hidden layers because their inputs and outputs are masked by the activation function and final convolution.
-
-When programming a CNN, the input is a tensor with shape (number of images) x (image width) x (image height) x (image depth). Then after passing through a convolutional layer, the image becomes abstracted to a feature map, with shape (number of images) x (feature map width) x (feature map height) x (feature map channels). 
-
-A convolutional layer within a neural network should have the following attributes:
-      1. Convolutional kernels defined by a width and height (hyper-parameters).
-      2.  The number of input channels and output channels (hyper-parameter).
-      3.  The depth of the Convolution filter (the input channels) must be equal to the  number channels (depth) of the input feature map.
-Convolutional layers convolve the input and pass its result to the next layer. This is similar to the response of a neuron in the visual cortex to a specific stimulus.
-
-Pooling: Convolutional networks may include local or global pooling layers to streamline the underlying computation. Pooling layers reduce the dimensions of the data by combining the outputs of neuron clusters at one layer into a single neuron in the next layer. Local pooling combines small clusters, typically 2 x 2. Global pooling acts on all the neurons of the convolutional layer.
-
-In addition, pooling may compute a max or an average. Max pooling uses the maximum value from each of a cluster of neurons at the prior layer.
-
-ReLU layer:ReLU is the abbreviation of rectified linear unit, which applies the non-saturating activation function {\textstyle f(x)=\max(0,x)}.
-
-The proposed system guides in such scenario to take decision in disease diagnosis. The input to the proposed system is person nail image. The system will process an image of nail and extract features of nail which is used for disease diagnosis. 
-
-Human nail consist of various features, out of which proposed system uses nail color changes for disease diagnosis. Here, first training set data is prepared using CNN from nail images of patients of specific diseases. A feature extracted from input nail image is compared with the training data set to get result. 
-
-Human fingernail image analysis is procedure consists of image capturing, pre-processing of image, image segmentation, segmentation of image, feature extraction
-
-The nail features such as color, shape and texture used to predict diseases.
-
-
-
-
-
-
-
-
-
 
