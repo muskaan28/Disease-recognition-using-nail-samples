@@ -22,7 +22,6 @@ Convolutional Neural Networks are used for training and testing of data. The lay
 
 Calculation of loss function is done and Adam optimizer is used to reduce the loss. The training of the Model is done for 4 Epochs to get higher accuracy.
 
-The model gives an accuracy of 84.3% with loss 15.7%
 
 AIM:
 
